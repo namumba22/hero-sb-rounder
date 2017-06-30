@@ -1,4 +1,4 @@
-[![Build Status](https://api.travis-ci.org/namumba22/hero-sb-main.svg?branch=master)](https://travis-ci.org/namumba22/hero-sb-main)
+[![Build Status](https://api.travis-ci.org/namumba22/hero-sb-rounder.svg?branch=master)](https://travis-ci.org/namumba22/hero-sb-rounder)
 
 # Eureka example
 Eureka sample.
@@ -9,7 +9,7 @@ Eureka sample.
 
 Service | Type | test url
 --- |---|---
-eireka itself | ... | https://hero-sb-main.herokuapp.com/
+rounder | ... | https://hero-sb-rounder.herokuapp.com/round/12.99888
 
 ## Authors
 
