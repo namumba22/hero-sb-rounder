@@ -46,6 +46,11 @@ public class Rounder {
         return roundOff.doubleValue();
     }
 
+    @RequestMapping(value = "/",  method = {RequestMethod.GET})
+    public String help() {
+        return "try https:// ... /round/12.3323";
+    }
+
     @RequestMapping("/roundDiscoveryClient/{applicationName}")
     public List<ServiceInstance> serviceInstancesByApplicationName(
             @PathVariable String applicationName) {
