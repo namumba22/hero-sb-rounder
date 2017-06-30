@@ -1,15 +1,16 @@
 [![Build Status](https://api.travis-ci.org/namumba22/hero-sb-rounder.svg?branch=master)](https://travis-ci.org/namumba22/hero-sb-rounder)
 
 # Eureka example
-Eureka sample.
+Rounder sample. uses eureka
 
 ## Testing the app
 
 ### Components
 
-Service | Type | test url
---- |---|---
-rounder | ... | https://hero-sb-rounder.herokuapp.com/round/12.99888
+Service |test url
+--- |---
+rounder |https://hero-sb-rounder.herokuapp.com/round/12.99888
+eureka \ https://hero-sb-main.herokuapp.com/eureka/apps/rounder
 
 ## Authors
 
