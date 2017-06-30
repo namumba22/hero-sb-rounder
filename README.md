@@ -10,7 +10,7 @@ Rounder sample. uses eureka
 Service |test url
 --- |---
 rounder |https://hero-sb-rounder.herokuapp.com/round/12.99888
-eureka | https://hero-sb-main.herokuapp.com/eureka/apps/rounder
+eureka | https://hero-sb-eureka.herokuapp.com/eureka/apps/rounder
 
 ## Authors
 
