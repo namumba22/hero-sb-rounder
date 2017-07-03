@@ -9,7 +9,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.feign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.http.MediaType;
@@ -43,11 +42,6 @@ public class Rounder {
         BigDecimal v = BigDecimal.valueOf(amount);
         BigDecimal roundOff = v.setScale(2, BigDecimal.ROUND_HALF_EVEN);
         return roundOff.doubleValue();
-    }
-
-    @RequestMapping(value = "/",  method = {RequestMethod.GET})
-    public String help() {
-        return "try https:// ... /round/12.3323";
     }
 
     @RequestMapping("/roundDiscoveryClient/{applicationName}")
