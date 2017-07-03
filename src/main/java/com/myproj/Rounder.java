@@ -25,7 +25,6 @@ import java.util.List;
 @EnableAutoConfiguration
 @SpringBootApplication
 @EnableEurekaClient
-@EnableFeignClients
 @ComponentScan(basePackages = {"com.myproj"})
 @PropertySource("classpath:rounder.properties")
 @RestController
